@@ -1,0 +1,20 @@
+<suite name="HYR">
+    <test name="Test Google">
+        <classes>
+            <class name="HYR.TestClass">
+                <methods>
+                    <include name="testGoogle"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Test Facebook">
+        <classes>
+            <class name="HYR.TestClass">
+                <methods>
+                    <include name="testFacebook"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

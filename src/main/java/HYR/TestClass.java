@@ -9,6 +9,7 @@ public class TestClass extends BaseTest {
         driver.get("https://www.google.com");
         System.out.println("Title: " +driver.getTitle());
         System.out.println("URL: " + driver.getCurrentUrl());
+        System.out.println("Console");
     }
 
     @Test
@@ -16,5 +17,6 @@ public class TestClass extends BaseTest {
         driver.get("https://www.facebook.com");
         System.out.println( "Title: "+driver.getTitle());
         System.out.println("URL: " + driver.getCurrentUrl());
+        System.out.println("Console");
     }
 }
